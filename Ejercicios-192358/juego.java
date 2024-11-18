@@ -168,7 +168,7 @@ class Villano extends Personaje {
 // Clase principal del juego
 public class juego {
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         Random random = new Random();
 
