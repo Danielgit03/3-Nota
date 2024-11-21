@@ -20,6 +20,7 @@ public class leer_datos
        System.out.println("El resultado del promedio de las 3 cantidades es = "+promedio);
       
       
-      
+       scanner.close();
     }
+
 }

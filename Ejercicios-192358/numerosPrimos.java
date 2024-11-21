@@ -3,14 +3,25 @@ public class numerosPrimos {
     public static void main(String[] args) {
         
 
-        final int juan =1;
-        int rei = 2;
+for (int i=2;i<=100;i++){
+    boolean esprimo=true;
+for(int j=2;j<i;j++){
 
-        for(int i = 0;i <= 10 ;i++ ){
-           
+    if(i%j==0){
+
+esprimo=false;
+        break;
+    }
+
+}
+if(esprimo){
+    System.out.println(i);
+}
+
+}
 
 
-        }
-        System.out.println(juan);
+
+
     }
 }

@@ -53,6 +53,6 @@ public class Ejercicio3 {
         }
 
 
-
+        scan.close();
     }
 }

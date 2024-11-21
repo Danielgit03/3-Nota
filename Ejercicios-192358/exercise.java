@@ -24,5 +24,6 @@ public class exercise  {
         double total = Total_Tshirt_descount+total_pants;
         
          System.out.println("el valor total a pagar es =  "+total);
+         System.out.println(Total_pants);
      }
     }

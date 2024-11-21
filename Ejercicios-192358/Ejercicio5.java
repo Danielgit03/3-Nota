@@ -11,6 +11,6 @@ public class Ejercicio5 {
 
         }
         
-       
+        scan.close();
     }
 }

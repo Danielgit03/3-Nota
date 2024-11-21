@@ -23,6 +23,7 @@ public static void main(String[] args) {
                 numeroMayor=num3; 
             }
             System.out.println("el numero mayor es "+numeroMayor);
+            scan.close();
         }
 
 

@@ -20,7 +20,7 @@ suma +=numeros[i];
 
     System.out.println("el promerdio de las sumas = "+promedio);
 
-
+    scan.close();
 }
-
+    
 }

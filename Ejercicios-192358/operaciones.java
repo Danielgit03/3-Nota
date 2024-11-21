@@ -25,6 +25,8 @@ public class operaciones {
  System.out.println("División: " + division);
  System.out.println("Módulo: " + modulo);
 
+
+        scanner.close();
      }
     }
 

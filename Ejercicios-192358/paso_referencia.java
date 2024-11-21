@@ -1,10 +1,10 @@
-class Personaje{
+class Person{
 
     String name;
     int vida;
 
 
-    public  Personaje (String name,int vida){  
+    public  Person (String name,int vida){  
         this.name=name;
         this.vida=vida;
 
@@ -27,14 +27,15 @@ public class paso_referencia {
 
     public static void main(String[] args) {
         
-        Personaje goku = new Personaje("goku ",100);
+        Person goku = new Person("goku ",100);
+        goku.mostrar_estado();
         modificarObjeto(goku);
         goku.mostrar_estado();
     }
 
 
 
-    public static void modificarObjeto(Personaje personaje){
+    public static void modificarObjeto(Person personaje){
         personaje.vida=50;
 
     }

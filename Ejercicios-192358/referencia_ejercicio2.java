@@ -20,6 +20,7 @@ public class referencia_ejercicio2 {
         
         Rectangulo rectangulo = new Rectangulo(); //Declaar el objeto ---- rectangulo es variable 
         // es la variable ( . ) lo que hace es acceder los atributos de lss variables  aca en main 
+        
         System.out.println(" Antes de modificar : Rectangulo Ancho = "+rectangulo.ancho+" Rectangulo altura =  "+rectangulo.altura);
         modificarRectangulo( rectangulo); // rectangulo es la variable del objeto y modificar rectangulo es el metodo y dentro pongo la variable por paso 
         

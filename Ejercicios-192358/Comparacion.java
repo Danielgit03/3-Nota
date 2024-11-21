@@ -19,7 +19,7 @@ public class Comparacion {
         System.out.println("El primer numeros es mayor que el segundo y el tercero ? " + resultado);
 
 
-
+        scan.close();
 
 
 
