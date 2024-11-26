@@ -6,7 +6,7 @@ import java.util.Scanner;
 // Clase Principal para ejecutar el código
 public class MAIN {
 
-
+    //get
     public int base(int base){
 
 return base;
